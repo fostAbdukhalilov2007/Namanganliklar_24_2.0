@@ -154,7 +154,7 @@ header {
     color: #5E5F61;
 }
 
-/* news end *//* news end */
+/* news end */
 
 /* on */
 
@@ -191,4 +191,17 @@ header {
 
 /* on end */
 
+/* row news */
+
+.news_float__left__row {
+    width: 797px;
+    height: 205px;
+}
+.news_float__left__row__col__img {
+    float: left;
+    margin: 20px 15px;
+}
+
+
+/* row news end */
 
