@@ -3,6 +3,8 @@
     padding: 0;
     box-sizing: border-box;
     font-family: sans-serif;
+    text-decoration: none;
+    list-style: none;
 }
 
 .container {
@@ -197,10 +199,12 @@
 /* on end */
 
 /* row news */
-
 .news_float {
     display: flex;
-    align-items: center;
+}
+.news_float__left {
+    float: left;
+    width: 60%;
 }
 .news_float__left__row {
     background: #F6F6F6;
@@ -235,12 +239,112 @@
     text-decoration: none;
     background: #EAEAEA;
     border-radius: 10px;
+
 }
 
-
-.news_float__right__border {
+.news_float__right {
     float: right;
-    padding-left: 10px;
+    width: 393px;
+}
+.news_float__right__border {
+    padding: 20px 17px;
+    background: #F6F6F6;
+    border-radius: 15px;
+}
+
+.news_float__right__border__h3 {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    margin-bottom: 25px;
+}
+
+.news_float__right__border__p {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 8px;
+}
+.right__burger {
+    border-bottom-color: #D2D2D2;
+    margin: 20px 0;
 }
 /* row news end */
 
+/* reklama */
+
+.right__reklama {
+    width: 393px;
+    height: 338px;
+    margin-top: 10px;
+}
+
+/* reklama end */
+
+/* footer */
+
+footer{
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+
+/* footer end */
+
+/* footer__section */
+
+footer {
+    margin-top: 100px;
+    background: #7297EF;
+    padding: 40px 0;
+    color: #fff;
+    /* height: 356px; */
+    list-style-type: none;
+}
+.footer__h2 {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    margin-bottom: 15px;
+}
+.footer__section {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 71px;
+}
+.footer__section__p {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 19px;
+}
+.footer__section__links__first__li, 
+.footer__section__links__second__li {
+    margin-bottom: 40px;
+}
+.footer__section__links__first__li a,
+.footer__section__links__second__li a{
+    color: #fff;
+    margin-bottom: 2px;
+}
+
+/* footer__section end */
+
+/* footer message */
+
+.footer__message {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px 0;
+}
+.icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icons img {
+    margin-left: 24px;
+}
+
+/* footer message end */
